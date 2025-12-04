@@ -529,7 +529,7 @@ var APP_DATA = {
       "infoHotspots": []
     }
   ],
-  "name": "01 tour",
+  "name": "001 tour",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
