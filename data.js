@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0--",
-      "name": "план квартиры",
+      "id": "0---2",
+      "name": "План квартиры 2",
       "levels": [
         {
           "tileSize": 256,
@@ -24,239 +24,59 @@ var APP_DATA = {
       ],
       "faceSize": 1536,
       "initialViewParameters": {
-        "yaw": -0.6782465053278326,
+        "yaw": -0.7652423459233244,
         "pitch": 1.5707963267948966,
-        "fov": 1.614568688462367
+        "fov": 2.0943951023931953
       },
       "linkHotspots": [
         {
-          "yaw": 1.9291871485133365,
-          "pitch": 1.1661223916538006,
+          "yaw": -2.726645115201581,
+          "pitch": 1.3003863295890348,
           "rotation": 0,
           "target": "1-"
         },
         {
-          "yaw": -0.576410934167189,
-          "pitch": 1.266727462930577,
+          "yaw": 0.32908760508794543,
+          "pitch": 0.9891732442875867,
           "rotation": 0,
-          "target": "2-"
+          "target": "3-c-1"
         },
         {
-          "yaw": 2.4916409407636344,
-          "pitch": 1.3337079412453026,
+          "yaw": -1.9518679014021725,
+          "pitch": 0.9181638156979872,
           "rotation": 0,
-          "target": "3-"
+          "target": "4-c-2"
         },
         {
-          "yaw": 1.3086139881525582,
-          "pitch": 1.4640830296970613,
+          "yaw": -2.821071756830607,
+          "pitch": 1.0081736077854888,
           "rotation": 0,
           "target": "5-"
         },
         {
-          "yaw": 2.556691396854692,
-          "pitch": 1.0773502723756216,
-          "rotation": 0,
-          "target": "4-"
-        },
-        {
-          "yaw": 2.814073182882744,
-          "pitch": 1.192082476313761,
+          "yaw": -2.717255880942684,
+          "pitch": 0.7940987514563087,
           "rotation": 0,
           "target": "6-"
         },
         {
-          "yaw": 0.1603211878956774,
-          "pitch": 1.0481901273955536,
+          "yaw": -3.0720645623595306,
+          "pitch": 0.7226137024287134,
           "rotation": 0,
-          "target": "7--1"
+          "target": "7-"
         },
         {
-          "yaw": -2.101605816980655,
-          "pitch": 1.3421964007611464,
-          "rotation": 6.283185307179586,
-          "target": "8--2"
+          "yaw": 2.8046141589408284,
+          "pitch": 0.9193871984849125,
+          "rotation": 0,
+          "target": "8-"
         }
       ],
       "infoHotspots": []
     },
     {
       "id": "1-",
-      "name": "гардеробная",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1536,
-      "initialViewParameters": {
-        "yaw": 0.3363490808811296,
-        "pitch": 0.3960558135209755,
-        "fov": 1.614568688462367
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.8629609109446505,
-          "pitch": 0.5691134326797158,
-          "rotation": 0,
-          "target": "4-"
-        },
-        {
-          "yaw": -2.333055356300507,
-          "pitch": 0.5910695637313363,
-          "rotation": 0,
-          "target": "6-"
-        },
-        {
-          "yaw": -1.6972395881569504,
-          "pitch": 0.2987377314309789,
-          "rotation": 0,
-          "target": "8--2"
-        },
-        {
-          "yaw": -1.5610694669507392,
-          "pitch": 0.666235681872358,
-          "rotation": 0,
-          "target": "3-"
-        },
-        {
-          "yaw": -1.2499155479278024,
-          "pitch": 0.17949600910798225,
-          "rotation": 0,
-          "target": "2-"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "2-",
-      "name": "гостиная",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1536,
-      "initialViewParameters": {
-        "yaw": -0.06916286365225766,
-        "pitch": 0.20417246389279597,
-        "fov": 1.614568688462367
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.04491132677764398,
-          "pitch": 0.4518500041415603,
-          "rotation": 0,
-          "target": "5-"
-        },
-        {
-          "yaw": 0.6041198673811881,
-          "pitch": 0.23090792544599914,
-          "rotation": 0,
-          "target": "3-"
-        },
-        {
-          "yaw": -0.723699458202482,
-          "pitch": 0.28891287905421237,
-          "rotation": 0,
-          "target": "8--2"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "3-",
-      "name": "коридор",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1536,
-      "initialViewParameters": {
-        "yaw": -0.09600882097947228,
-        "pitch": 0.11119641021733528,
-        "fov": 1.614568688462367
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.586119929792293,
-          "pitch": 0.29463179579467536,
-          "rotation": 0,
-          "target": "4-"
-        },
-        {
-          "yaw": 2.6463553534331092,
-          "pitch": 0.3460431608577146,
-          "rotation": 0,
-          "target": "1-"
-        },
-        {
-          "yaw": -1.619398662974513,
-          "pitch": 0.5366892118049549,
-          "rotation": 0,
-          "target": "6-"
-        },
-        {
-          "yaw": -0.027567173041465054,
-          "pitch": 0.38344735078283065,
-          "rotation": 0,
-          "target": "8--2"
-        },
-        {
-          "yaw": 0.5742810848696429,
-          "pitch": 0.23345669658209545,
-          "rotation": 0,
-          "target": "2-"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "4-",
-      "name": "постирочная",
+      "name": "Кухня",
       "levels": [
         {
           "tileSize": 256,
@@ -284,35 +104,185 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 1.0191402171803308,
-          "pitch": 0.28649904596904463,
+          "yaw": 0.7740493874140864,
+          "pitch": 0.2366670400630575,
+          "rotation": 0,
+          "target": "3-c-1"
+        },
+        {
+          "yaw": -0.18207797675922954,
+          "pitch": 0.3259224878145197,
+          "rotation": 0,
+          "target": "2-"
+        },
+        {
+          "yaw": -1.224900305346626,
+          "pitch": 0.4817042494101891,
+          "rotation": 0,
+          "target": "4-c-2"
+        },
+        {
+          "yaw": -3.0025095952728336,
+          "pitch": 0.2256317751979111,
           "rotation": 0,
           "target": "6-"
         },
         {
-          "yaw": 1.7919840101151747,
-          "pitch": 0.26844266955313145,
+          "yaw": 2.9589594763934226,
+          "pitch": 0.1563909549655449,
           "rotation": 0,
-          "target": "8--2"
+          "target": "7-"
         },
         {
-          "yaw": 1.7120463102829415,
-          "pitch": 0.7287047863117291,
+          "yaw": 2.424068800803682,
+          "pitch": 0.2245794642175465,
           "rotation": 0,
-          "target": "3-"
+          "target": "8-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "2-",
+      "name": "Гостиная",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
         },
         {
-          "yaw": -1.9251695920180758,
-          "pitch": 1.1420540127126824,
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1536,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.7228897109662693,
+          "pitch": 0.1891141225916968,
+          "rotation": 0,
+          "target": "3-c-1"
+        },
+        {
+          "yaw": 0.6719067206543823,
+          "pitch": 0.17837539394830593,
+          "rotation": 0,
+          "target": "6-"
+        },
+        {
+          "yaw": 0.5601459056138793,
+          "pitch": 0.17133874423881856,
+          "rotation": 0,
+          "target": "7-"
+        },
+        {
+          "yaw": 0.24005866352421457,
+          "pitch": 0.3028040780005199,
           "rotation": 0,
           "target": "1-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "3-c-1",
+      "name": "Cпальня 1",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1536,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.6264463695158824,
+          "pitch": 0.2474459081235718,
+          "rotation": 0,
+          "target": "1-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "4-c-2",
+      "name": "Cпальня 2",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1536,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.21151430931118398,
+          "pitch": 0.4099687302717143,
+          "rotation": 0,
+          "target": "5-"
+        },
+        {
+          "yaw": -0.22815464374102667,
+          "pitch": 0.12820152456009737,
+          "rotation": 0,
+          "target": "8-"
         }
       ],
       "infoHotspots": []
     },
     {
       "id": "5-",
-      "name": "кухня",
+      "name": "Коридор",
       "levels": [
         {
           "tileSize": 256,
@@ -332,61 +302,37 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 1536,
+      "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 0.4279803247183853,
-        "pitch": 0.05809429227374352,
-        "fov": 1.614568688462367
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": -0.1727050163184014,
-          "pitch": 0.3476556876641279,
+          "yaw": -0.32728967027587075,
+          "pitch": 0.3259121594161343,
           "rotation": 0,
-          "target": "2-"
+          "target": "4-c-2"
         },
         {
-          "yaw": 0.7828309642092783,
-          "pitch": 0.2576303205807111,
-          "rotation": 0,
-          "target": "7--1"
-        },
-        {
-          "yaw": -1.2736465798452556,
-          "pitch": 0.5672238618385705,
-          "rotation": 0,
-          "target": "8--2"
-        },
-        {
-          "yaw": -3.0141423150913766,
-          "pitch": 0.2832925045506798,
-          "rotation": 0,
-          "target": "6-"
-        },
-        {
-          "yaw": 2.943886389844872,
-          "pitch": 0.19500844664224815,
-          "rotation": 0,
-          "target": "4-"
-        },
-        {
-          "yaw": 3.060860561886747,
-          "pitch": 0.8127907583466651,
-          "rotation": 0,
-          "target": "3-"
-        },
-        {
-          "yaw": 2.420524124023837,
-          "pitch": 0.23496760319035204,
+          "yaw": -0.412517213079747,
+          "pitch": 0.5394577190496594,
           "rotation": 0,
           "target": "1-"
+        },
+        {
+          "yaw": -1.5687916493211258,
+          "pitch": 0.39310234498574737,
+          "rotation": 0,
+          "target": "6-"
         }
       ],
       "infoHotspots": []
     },
     {
       "id": "6-",
-      "name": "санузел",
+      "name": "Санузел",
       "levels": [
         {
           "tileSize": 256,
@@ -408,47 +354,41 @@ var APP_DATA = {
       ],
       "faceSize": 1536,
       "initialViewParameters": {
-        "yaw": -0.009650566431467666,
-        "pitch": 0.27990886277348537,
-        "fov": 1.614568688462367
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": 3.09537652605783,
-          "pitch": 1.020105408076926,
+          "yaw": -2.61201896060855,
+          "pitch": 0.26549200834727493,
           "rotation": 0,
-          "target": "3-"
+          "target": "8-"
         },
         {
-          "yaw": -2.624308479306622,
-          "pitch": 0.30879354637326273,
+          "yaw": 2.565553356514645,
+          "pitch": 0.3923526323338784,
           "rotation": 0,
           "target": "1-"
         },
         {
-          "yaw": 2.5374000929927067,
-          "pitch": 0.4200129775451735,
+          "yaw": 2.060600873932703,
+          "pitch": 0.27101666248186085,
           "rotation": 0,
-          "target": "5-"
+          "target": "4-c-2"
         },
         {
-          "yaw": 2.3589583431324552,
-          "pitch": 0.13657069151399526,
+          "yaw": 2.3525828914796127,
+          "pitch": 0.15058747987095344,
           "rotation": 0,
           "target": "2-"
-        },
-        {
-          "yaw": 2.075728879085175,
-          "pitch": 0.2514258744329698,
-          "rotation": 0,
-          "target": "8--2"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "7--1",
-      "name": "спальня 1",
+      "id": "7-",
+      "name": "Постирочная",
       "levels": [
         {
           "tileSize": 256,
@@ -470,23 +410,41 @@ var APP_DATA = {
       ],
       "faceSize": 1536,
       "initialViewParameters": {
-        "yaw": 0.0639184078206938,
-        "pitch": 0.3100774561090276,
-        "fov": 1.614568688462367
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": 0.6337029422938514,
-          "pitch": 0.18476704577876646,
+          "yaw": 1.0133489317055133,
+          "pitch": 0.29105922368757753,
+          "rotation": 0,
+          "target": "6-"
+        },
+        {
+          "yaw": -2.016589972897094,
+          "pitch": 1.1739875346784618,
+          "rotation": 0,
+          "target": "8-"
+        },
+        {
+          "yaw": 1.7285647945955205,
+          "pitch": 0.6729868038894473,
           "rotation": 0,
           "target": "5-"
+        },
+        {
+          "yaw": 1.78199359259904,
+          "pitch": 0.26753402175353,
+          "rotation": 0,
+          "target": "4-c-2"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "8--2",
-      "name": "спальня 2",
+      "id": "8-",
+      "name": "Гардеробная",
       "levels": [
         {
           "tileSize": 256,
@@ -506,28 +464,21 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 1536,
+      "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": -2.5563427104485488,
-        "pitch": 0.19879592307355054,
-        "fov": 1.614568688462367
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
-      "linkHotspots": [
-        {
-          "yaw": -0.2423938546522173,
-          "pitch": 0.4283625623757139,
-          "rotation": 0,
-          "target": "3-"
-        }
-      ],
+      "linkHotspots": [],
       "infoHotspots": []
     }
   ],
-  "name": "Project Title",
+  "name": "Тур по квартире 01",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
-    "fullscreenButton": false,
+    "fullscreenButton": true,
     "viewControlButtons": false
   }
 };
