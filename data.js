@@ -33,7 +33,7 @@ var APP_DATA = {
           "yaw": -2.726645115201581,
           "pitch": 1.3003863295890348,
           "rotation": 0,
-          "target": "1-"
+          "target": "2-"
         },
         {
           "yaw": 0.32908760508794543,
@@ -48,8 +48,8 @@ var APP_DATA = {
           "target": "4-c-2"
         },
         {
-          "yaw": -2.821071756830607,
-          "pitch": 1.0081736077854888,
+          "yaw": -2.8166915000173773,
+          "pitch": 1.009209150020883,
           "rotation": 0,
           "target": "5-"
         },
@@ -76,74 +76,6 @@ var APP_DATA = {
     },
     {
       "id": "1-",
-      "name": "Кухня",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1536,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.7740493874140864,
-          "pitch": 0.2366670400630575,
-          "rotation": 0,
-          "target": "3-c-1"
-        },
-        {
-          "yaw": -0.18207797675922954,
-          "pitch": 0.3259224878145197,
-          "rotation": 0,
-          "target": "2-"
-        },
-        {
-          "yaw": -1.224900305346626,
-          "pitch": 0.4817042494101891,
-          "rotation": 0,
-          "target": "4-c-2"
-        },
-        {
-          "yaw": -3.0025095952728336,
-          "pitch": 0.2256317751979111,
-          "rotation": 0,
-          "target": "6-"
-        },
-        {
-          "yaw": 2.9589594763934226,
-          "pitch": 0.1563909549655449,
-          "rotation": 0,
-          "target": "7-"
-        },
-        {
-          "yaw": 2.424068800803682,
-          "pitch": 0.2245794642175465,
-          "rotation": 0,
-          "target": "8-"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "2-",
       "name": "Гостиная",
       "levels": [
         {
@@ -193,7 +125,75 @@ var APP_DATA = {
           "yaw": 0.24005866352421457,
           "pitch": 0.3028040780005199,
           "rotation": 0,
+          "target": "2-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "2-",
+      "name": "Кухня",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1536,
+      "initialViewParameters": {
+        "yaw": 0.40422502567335883,
+        "pitch": 0.06331359760386235,
+        "fov": 1.61129469758412
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.7740493874140864,
+          "pitch": 0.2366670400630575,
+          "rotation": 0,
+          "target": "3-c-1"
+        },
+        {
+          "yaw": -0.18207797675922954,
+          "pitch": 0.3259224878145197,
+          "rotation": 0,
           "target": "1-"
+        },
+        {
+          "yaw": -1.224900305346626,
+          "pitch": 0.4817042494101891,
+          "rotation": 0,
+          "target": "4-c-2"
+        },
+        {
+          "yaw": -3.0025095952728336,
+          "pitch": 0.2256317751979111,
+          "rotation": 0,
+          "target": "6-"
+        },
+        {
+          "yaw": 2.9589594763934226,
+          "pitch": 0.1563909549655449,
+          "rotation": 0,
+          "target": "7-"
+        },
+        {
+          "yaw": 2.424068800803682,
+          "pitch": 0.2245794642175465,
+          "rotation": 0,
+          "target": "8-"
         }
       ],
       "infoHotspots": []
@@ -231,7 +231,7 @@ var APP_DATA = {
           "yaw": 0.6264463695158824,
           "pitch": 0.2474459081235718,
           "rotation": 0,
-          "target": "1-"
+          "target": "2-"
         }
       ],
       "infoHotspots": []
@@ -260,9 +260,9 @@ var APP_DATA = {
       ],
       "faceSize": 1536,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 2.384867988522833,
+        "pitch": 0.45341431768677687,
+        "fov": 1.61129469758412
       },
       "linkHotspots": [
         {
@@ -302,30 +302,48 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 2048,
+      "faceSize": 1536,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": -0.21379804816048953,
+        "pitch": 0.2197623309714043,
+        "fov": 1.61129469758412
       },
       "linkHotspots": [
         {
-          "yaw": -0.32728967027587075,
-          "pitch": 0.3259121594161343,
+          "yaw": -2.5814457413243517,
+          "pitch": 0.2806717828188976,
+          "rotation": 0,
+          "target": "7-"
+        },
+        {
+          "yaw": -1.5784869745143553,
+          "pitch": 0.4114622352955628,
+          "rotation": 0,
+          "target": "6-"
+        },
+        {
+          "yaw": -0.3407085403242984,
+          "pitch": 0.30569399723764334,
           "rotation": 0,
           "target": "4-c-2"
         },
         {
-          "yaw": -0.412517213079747,
-          "pitch": 0.5394577190496594,
+          "yaw": 2.467986654150561,
+          "pitch": 0.3805240561504313,
+          "rotation": 0,
+          "target": "8-"
+        },
+        {
+          "yaw": 0.2195300369124169,
+          "pitch": 0.14497427479562575,
           "rotation": 0,
           "target": "1-"
         },
         {
-          "yaw": -1.5687916493211258,
-          "pitch": 0.39310234498574737,
+          "yaw": 0.2319902754379477,
+          "pitch": 0.49686602195411567,
           "rotation": 0,
-          "target": "6-"
+          "target": "2-"
         }
       ],
       "infoHotspots": []
@@ -354,9 +372,9 @@ var APP_DATA = {
       ],
       "faceSize": 1536,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 0.01628901020093565,
+        "pitch": 0.21676947738071561,
+        "fov": 1.61129469758412
       },
       "linkHotspots": [
         {
@@ -369,7 +387,7 @@ var APP_DATA = {
           "yaw": 2.565553356514645,
           "pitch": 0.3923526323338784,
           "rotation": 0,
-          "target": "1-"
+          "target": "2-"
         },
         {
           "yaw": 2.060600873932703,
@@ -381,7 +399,13 @@ var APP_DATA = {
           "yaw": 2.3525828914796127,
           "pitch": 0.15058747987095344,
           "rotation": 0,
-          "target": "2-"
+          "target": "1-"
+        },
+        {
+          "yaw": 2.649992550644667,
+          "pitch": 0.8783156718569423,
+          "rotation": 0,
+          "target": "5-"
         }
       ],
       "infoHotspots": []
@@ -410,9 +434,9 @@ var APP_DATA = {
       ],
       "faceSize": 1536,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 0.06298337238283125,
+        "pitch": 0.2529533550132115,
+        "fov": 1.61129469758412
       },
       "linkHotspots": [
         {
@@ -466,15 +490,46 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
+        "yaw": -0.11432179560913802,
+        "pitch": 0.32313877222462395,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": -1.7048155578173283,
+          "pitch": 0.296478660993289,
+          "rotation": 0,
+          "target": "4-c-2"
+        },
+        {
+          "yaw": -2.3758489945428245,
+          "pitch": 0.5551610594151359,
+          "rotation": 0,
+          "target": "6-"
+        },
+        {
+          "yaw": -1.2373010883040045,
+          "pitch": 0.4495692270406977,
+          "rotation": 0,
+          "target": "2-"
+        },
+        {
+          "yaw": -1.262514866536371,
+          "pitch": 0.15772046766640102,
+          "rotation": 0,
+          "target": "1-"
+        },
+        {
+          "yaw": 1.923472306075972,
+          "pitch": 0.5073889102590865,
+          "rotation": 0,
+          "target": "7-"
+        }
+      ],
       "infoHotspots": []
     }
   ],
-  "name": "Тур по квартире 01",
+  "name": "01 tour",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
